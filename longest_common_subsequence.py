@@ -19,8 +19,3 @@ class Solution:
         
         # Return the length of LCS.
         return dp[m][n]
-sol = Solution()
-x= "AHJGHDAJ"
-y= "ASDSAASJN"
-result = sol.lcs(x,y,len(x),len(y))
-print("length of LCS: ",result)
