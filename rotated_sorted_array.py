@@ -6,7 +6,7 @@
 #You must write an algorithm that runs in O(log n) time.
 
 class Solution(object):
-    def findMin(self, nums):
+    def findMin(self, nums) :
         start = 0
         end = len(nums) - 1
 
