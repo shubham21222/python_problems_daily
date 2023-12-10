@@ -4,5 +4,4 @@ class Solution:
         for i in range(len(matrix)):
             for j in range(len(matrix[i])):
                 ans [j][i] = matrix[i][j]
-
         return ans
